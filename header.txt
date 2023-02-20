@@ -1,0 +1,129 @@
+<header>
+    <nav>
+
+<div class="logo">
+    <img src="./images/olx.png">
+</div>
+
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Setting</a></li>
+        </ul>
+
+    </nav>
+    
+<div class="second">
+
+    <div class="test">Testing
+
+    </div>
+<div class="pic">
+    <img src="./images/olx.png">
+</div>
+
+<div class="search">
+    <input type="search" placeholder="enter here ">
+</div>
+
+</div>
+
+<div class="third">
+<div class="location">
+
+    <input type="search" placeholder="enter something">
+</div>
+
+<div class="location2">
+
+    <input type="search" placeholder="enter something">
+</div>
+
+
+<div class="location3">
+
+    <input type="search" placeholder="enter something">
+</div>
+
+</div>
+
+
+
+</header>
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^CSS
+
+
+header{
+
+    height: 80px;
+    background-color: aqua;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul li a{
+    color: pink;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+
+}
+
+nav ul li{
+
+    display: inline-block;
+
+}
+
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+
+    width: 100px;
+    height: 40px;
+    margin: 2px 3px;
+}
+
+
+.second{
+    display: flex;
+}
+
+.test{
+    display: inline-block;
+}
+
+.pic{
+    display: flex;
+}
+
+
+.pic img{
+    width: 100px;
+    height: 40px;
+    margin: 2px 20px;
+}
+
+
+.search{
+    display: flex;
+}
+
+.search input{
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.third{
+    display: flex;
+}
+
+
+
